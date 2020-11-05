@@ -27,6 +27,6 @@ public class Main {
         double getKgInPounds = totalKg / poundInKg;
         System.out.println(getPoundsInKg);
         System.out.println(getKgInPounds);
-        
+
     }
 }
