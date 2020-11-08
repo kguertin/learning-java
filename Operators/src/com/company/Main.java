@@ -58,6 +58,34 @@ public class Main {
             System.out.println("Either or both of the conditions are true");
         }
 
+        int newValue = 50;
+        if(newValue == 50){
+            System.out.println("This is an not Error");
+        }
+
+        boolean isCar = false;
+        if(isCar) {
+            System.out.println("This is not supposed to happen");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if(wasCar){
+            System.out.println("It was a car");
+        }
+
+        double doubleOne = 20.00d;
+        double doubleTwo = 80.00d;
+        double total = (doubleOne + doubleTwo) * 100.00d;
+        double remainder = total % 40.00d;
+        boolean isNoRemainder = remainder == 0 ? true : false;
+
+        System.out.println(isNoRemainder);
+
+        if(!isNoRemainder){
+            System.out.println("Got some remainder");
+        }
+
 
     }
 }
