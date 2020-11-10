@@ -18,16 +18,26 @@ public class Main {
 
         if(gameOver) {
             int finalScore = score + (levelCompleted * bonus);
+            finalScore += 1000;
             System.out.println("Your final score is " + finalScore);
         }
 
-        int newScore = 10000;
-        int newLevelCompleted = 8;
-        int newBonus = 200;
+//        int newScore = 10000;
+//        int newLevelCompleted = 8;
+//        int newBonus = 200;
+//
+//        if(gameOver){
+//            int finalScore = newScore + (newLevelCompleted * newBonus);
+//            System.out.println("Your final scoreis " + finalScore);
+//        }
 
-        if(gameOver){
-            int finalScore = newScore + (newLevelCompleted * newBonus);
-            System.out.println("Your final scoreis " + finalScore);
+        score = 10000;
+        levelCompleted = 8;
+        bonus = 200;
+
+        if(gameOver) {
+            int finalScore = score + (levelCompleted * bonus);
+            System.out.println("Your final score is " + finalScore);
         }
     }
 }
