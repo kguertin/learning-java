@@ -31,6 +31,9 @@ public class Main {
 
         int number = 4;
         int finish = 20;
+        int evenSum = 0;
+        int totalNums = 0;
+        
         while(number <= finish){
             number++;
             if(!isEvenNumber(number)){
@@ -38,6 +41,13 @@ public class Main {
             }
 
             System.out.println("Even Number " + number);
+            totalNums++;
+            evenSum += number;
+
+            if(totalNums == 5){
+                System.out.println(evenSum);
+                break;
+            }
         }
     }
 
