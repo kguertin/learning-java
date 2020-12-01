@@ -33,7 +33,7 @@ public class Main {
         int finish = 20;
         int evenSum = 0;
         int totalNums = 0;
-        
+
         while(number <= finish){
             number++;
             if(!isEvenNumber(number)){
